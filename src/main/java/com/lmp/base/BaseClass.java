@@ -48,6 +48,9 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.MILLISECONDS);
 		
 		driver.get(prop.getProperty("url"));
+		
+		//testing for git-- just for learning purpose"
+		System.out.println("Testing git");
 	}
 	
 	
