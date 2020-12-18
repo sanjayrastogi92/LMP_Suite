@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Movr Automation Test Suite]">
+  <test thread-count="5" name="Organisation Mgmt Test(failed)">
+    <classes>
+      <class name="com.lmp.testcases.DashboardPageTest">
+        <methods>
+          <include name="clickOnViewManagementTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyDashBoardLogoTest"/>
+        </methods>
+      </class> <!-- com.lmp.testcases.DashboardPageTest -->
+      <class name="com.lmp.testcases.OrgMgmtPageTest">
+        <methods>
+          <include name="verifyAddNewAsset"/>
+          <include name="verifyCreateNewOrg"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lmp.testcases.OrgMgmtPageTest -->
+      <class name="com.lmp.testcases.LoginPageTest">
+        <methods>
+          <include name="userLoginTest"/>
+          <include name="vleLoginIconTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.lmp.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Organisation Mgmt Test(failed) -->
+</suite> <!-- Failed suite [Movr Automation Test Suite] -->
